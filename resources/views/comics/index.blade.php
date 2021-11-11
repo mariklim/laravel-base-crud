@@ -25,7 +25,7 @@
         <td>{{$comic["type"]}}</td>
         <td>{{$comic["price"]}}</td>
 		<td>
-			{{-- <a href="{{route("products.show", $comic["id"])}}"><button type="button" class="btn btn-primary">Visualizza</button></a> --}}
+			<a href="{{route("comics.show", $comic["id"])}}"><button type="button" class="btn btn-primary">Visualizza</button></a>
 		</td>
 	  </tr>
 	  @endforeach
