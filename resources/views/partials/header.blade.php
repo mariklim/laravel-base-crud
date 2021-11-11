@@ -11,8 +11,8 @@
 			  <a class="nav-link" href="{{route("comics.index")}}">Tutti i fumetti</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link" href="">Crea un nuovo fumetto</a>
-			</li>
+                <a class="nav-link" href="{{route("comics.create")}}">Crea un nuovo fumetto</a>
+              </li>
 		  </ul>
 		  <form class="form-inline my-2 my-lg-0">
 			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
